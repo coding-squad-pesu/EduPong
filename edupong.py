@@ -9,6 +9,7 @@ from pygame import mixer  # For background music
 # MY COOL PONG GAME + QUIZ PROJECT
 # ==========================================
 
+
 # Simple settings
 points_to_start = 5  # Play pong for this many points first
 paddle_speed = 8  # How fast the paddle moves
