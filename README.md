@@ -124,4 +124,4 @@ python pong_quiz.py
 
 ## License
 
-MIT License © 2025
+Open source project showcasing the use of pygame , turtle and other modules.
