@@ -70,7 +70,6 @@ A fun educational game combining **classic Pong mechanics** with **general knowl
 
 Install dependencies:
 
-```bash
 pip install pygame
 
 **Important:** Make sure you have a `music.mp3` file in the same folder as the script, or background music will be disabled.
@@ -81,7 +80,6 @@ pip install pygame
 
 Run the game:
 
-```bash
 python pong_quiz.py
 
 ## How to Play
