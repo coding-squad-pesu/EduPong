@@ -43,7 +43,7 @@ A **fun and interactive educational game** that combines the classic Pong game w
 
 1. Clone this repository:
 
-```bash
+
 git clone https://github.com/your-username/pong-gk-quiz.git
 cd pong-gk-quiz
 
