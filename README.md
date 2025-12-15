@@ -1,6 +1,6 @@
 # Pong + GK Quiz
 
-![Pong Quiz](https://img.shields.io/badge/Python-3.11-blue) ![Turtle](https://img.shields.io/badge/Turtle-GUI-green)  
+![Pong Quiz](https://img.shields.io/badge/Python-3.11-blue) ![Turtle](https://img.shields.io/badge/Turtle-GUI-green)
 
 A **fun and interactive educational game** that combines the classic Pong game with a **general knowledge quiz**, allowing players to memorize facts while enjoying gameplay.
 
@@ -8,32 +8,32 @@ A **fun and interactive educational game** that combines the classic Pong game w
 
 ## Table of Contents
 
-- [Features](#features)  
-- [Demo](#demo)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Game Controls](#game-controls)  
-- [How It Works](#how-it-works)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Controls](#game-controls)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
 ## Features
 
-- **Study Mode:** Memorize facts before playing.  
-- **Game Mode:** Classic Pong gameplay with 2 players.  
-- **Quiz Mode:** Triggered when a player misses the ball; answer multiple-choice questions to save points.  
-- **AI Paddle:** Optional AI control for adaptive gameplay.  
-- **Timed Quizzes:** Players must answer within 10 seconds.  
-- **Pause and Music Control:** Press keys to pause/resume and toggle background music.  
-- **Scoreboard & Leaderboard:** Track scores and maintain competitiveness.  
+- **Study Mode:** Memorize facts before playing.
+- **Game Mode:** Classic Pong gameplay with 2 players.
+- **Quiz Mode:** Triggered when a player misses the ball; answer multiple-choice questions to save points.
+- **AI Paddle:** Optional AI control for adaptive gameplay.
+- **Timed Quizzes:** Players must answer within 10 seconds.
+- **Pause and Music Control:** Press keys to pause/resume and toggle background music.
+- **Scoreboard & Leaderboard:** Track scores and maintain competitiveness.
 
 ---
 
 ## Demo
 
-*Insert screenshot or GIF of gameplay here*  
+_Insert screenshot or GIF of gameplay here_
 
 > Players memorize facts, then play Pong. Missing a ball triggers a quiz. Correct answers save points; wrong answers cost points.
 
@@ -42,7 +42,6 @@ A **fun and interactive educational game** that combines the classic Pong game w
 ## Installation
 
 1. Clone this repository:
-
 
 git clone https://github.com/your-username/pong-gk-quiz.git
 cd pong-gk-quiz
@@ -84,40 +83,40 @@ python pong_quiz.py
 
 ## How to Play
 
-1. Start in **Intro Mode** → Press **Enter** to go to **Study Mode**.  
-2. Scroll facts using **Up/Down arrows**.  
+1. Start in **Intro Mode** → Press **Enter** to go to **Study Mode**.
+2. Scroll facts using **Up/Down arrows**.
 3. Press **Enter** again to start **Pong Game Mode**.
 
 ---
 
 ## Game Controls
 
-| Player | Controls             |
-|--------|--------------------|
-| Left   | W (up), S (down)    |
-| Right  | Up (up), Down (down)|
-| Quiz   | 1-4 for answer options |
-| Pause  | P                   |
-| Toggle Music | M             |
-| Quit / Exit | Escape         |
+| Player       | Controls               |
+| ------------ | ---------------------- |
+| Left         | W (up), S (down)       |
+| Right        | Up (up), Down (down)   |
+| Quiz         | 1-4 for answer options |
+| Pause        | P                      |
+| Toggle Music | M                      |
+| Quit / Exit  | Escape                 |
 
 ---
 
 ## How It Works
 
-1. The player first memorizes factual information in **Study Mode**.  
-2. The game starts with classic **Pong mechanics**.  
-3. After a total of **5 points**, missing the ball triggers a **quiz question**.  
-4. Correct answers save points; wrong answers deduct points and award 1 point to the opponent.  
+1. The player first memorizes factual information in **Study Mode**.
+2. The game starts with classic **Pong mechanics**.
+3. After a total of **5 points**, missing the ball triggers a **quiz question**.
+4. Correct answers save points; wrong answers deduct points and award 1 point to the opponent.
 5. The **game ends** when the player quits or closes the window, and the **winner is displayed**.
 
 ---
 
 ## Contributing
 
-1. Fork the repository.  
-2. Create a feature branch.  
-3. Make improvements or add questions.  
+1. Fork the repository.
+2. Create a feature branch.
+3. Make improvements or add questions.
 4. Submit a pull request.
 
 ---
