@@ -1,112 +1,127 @@
-🚀 EduPong – Learn Smarter, Not Harder
+# Pong + GK Quiz
 
-A fast-paced Pong game fused with instant learning.
+![Pong Quiz](https://img.shields.io/badge/Python-3.11-blue) ![Turtle](https://img.shields.io/badge/Turtle-GUI-green)  
 
-EduPong is not just another student project…
-It’s an experiment in turning distraction into a learning tool.
+A **fun and interactive educational game** that combines the classic Pong game with a **general knowledge quiz**, allowing players to memorize facts while enjoying gameplay.
 
-Created by a first-semester engineering students, EduPong mixes the excitement of Pong with quick General Knowledge questions.
-Every time you miss the ball, you don’t just lose a point — you face a question.
-Answer correctly → You save your point.
-Answer wrong → You lose one, and your opponent gains it.
+---
 
-This simple twist transforms gameplay into a micro-learning loop that keeps the brain alert, reduces stress, and makes memorizing facts surprisingly fun.
+## Table of Contents
 
-🎮 Why EduPong?
+- [Features](#features)  
+- [Demo](#demo)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Game Controls](#game-controls)  
+- [How It Works](#how-it-works)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-Traditional studying forces you to focus.
-EduPong does the opposite:
+---
 
-It lets you get distracted — and then uses that distraction to teach you something.
-Children especially benefit from this:
-Short attention spans
-Need for instant feedback
-Learning better through play
-EduPong merges gameplay + memory reinforcement into one addictive loop.
+## Features
 
-✨ Features at a Glance
+- **Study Mode:** Memorize facts before playing.  
+- **Game Mode:** Classic Pong gameplay with 2 players.  
+- **Quiz Mode:** Triggered when a player misses the ball; answer multiple-choice questions to save points.  
+- **AI Paddle:** Optional AI control for adaptive gameplay.  
+- **Timed Quizzes:** Players must answer within 10 seconds.  
+- **Pause and Music Control:** Press keys to pause/resume and toggle background music.  
+- **Scoreboard & Leaderboard:** Track scores and maintain competitiveness.  
 
-Study Mode to review all facts before starting
+---
 
-Neon Pong Gameplay with smooth paddle controls
+## Demo
 
-Quiz Popup whenever a player misses
+*Insert screenshot or GIF of gameplay here*  
 
-Sound Effects (high ding for correct, error beep for wrong)
+> Players memorize facts, then play Pong. Missing a ball triggers a quiz. Correct answers save points; wrong answers cost points.
 
-Background Music Support
+---
 
-Score Rewards + Penalties
+## Installation
 
-Clean, modern UI designed for readability
+1. Clone this repository:
 
-🕹️ Controls
 
-Left Player:
-W = Up
-S = Down
+git clone https://github.com/your-username/pong-gk-quiz.git
+cd pong-gk-quiz
 
-Right Player:
-Up Arrow = Up
-Down Arrow = Down
+# Pong + GK Quiz
 
-Quiz Answers: 1 / 2 / 3 / 4
-Enter: Start Game / Continue
-Escape: Quit
+A fun educational game combining **classic Pong mechanics** with **general knowledge quizzes**. Learn while playing and memorize facts using distraction as a tool.
 
-▶️ How to Run
+---
 
-Install Python 3
+## Features
 
-Install pygame:
+- **Study Mode**: Memorize factual information before gameplay.
+- **Pong Game Mode**: Classic Pong mechanics.
+- **Quiz Mode**: Triggered when a player misses the ball.
+- **AI Paddle Control**: Optional AI-assisted paddle.
+- **Timed Quizzes**: Answer within a time limit.
+- **Pause Control**: Press `P` to pause the game.
+- **Background Music**: Play music during the game.
+- **Leaderboard Tracking**: Keep score of your performance.
+
+---
+
+## Installation
+
+Install dependencies:
 
 pip install pygame
 
+**Important:** Make sure you have a `music.mp3` file in the same folder as the script, or background music will be disabled.
 
-Place music.mp3 in the same folder
+---
 
-Run:
+## Usage
 
-python main.py
+Run the game:
 
-📷 Screenshots
-screen shots dallni hai
+python pong_quiz.py
 
+## How to Play
 
-To add screenshots:
+1. Start in **Intro Mode** → Press **Enter** to go to **Study Mode**.  
+2. Scroll facts using **Up/Down arrows**.  
+3. Press **Enter** again to start **Pong Game Mode**.
 
-Make a folder named assets
+---
 
-Put your images inside
+## Game Controls
 
-Add the above markdown — GitHub will display them automatically
+| Player | Controls             |
+|--------|--------------------|
+| Left   | W (up), S (down)    |
+| Right  | Up (up), Down (down)|
+| Quiz   | 1-4 for answer options |
+| Pause  | P                   |
+| Toggle Music | M             |
+| Quit / Exit | Escape         |
 
-🎓 Educational Purpose
+---
 
-EduPong teaches through:
+## How It Works
 
-Repetition
+1. The player first memorizes factual information in **Study Mode**.  
+2. The game starts with classic **Pong mechanics**.  
+3. After a total of **5 points**, missing the ball triggers a **quiz question**.  
+4. Correct answers save points; wrong answers deduct points and award 1 point to the opponent.  
+5. The **game ends** when the player quits or closes the window, and the **winner is displayed**.
 
-Instant feedback
+---
 
-High engagement
+## Contributing
 
-Micro-learning
+1. Fork the repository.  
+2. Create a feature branch.  
+3. Make improvements or add questions.  
+4. Submit a pull request.
 
-This project helped me learn:
+---
 
-Python game loops
+## License
 
-Event handling
-
-Collision detection
-
-UI/UX basics
-
-Sound integration
-
-Game design
-
-Problem-solving
-
-For a first-semester project, EduPong represents how simple ideas can create meaningful learning experiences.
+Open source project showcasing the use of pygame , turtle and other modules.
