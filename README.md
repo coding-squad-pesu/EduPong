@@ -32,8 +32,22 @@ A **fun and interactive educational game** that combines the classic Pong game w
 ---
 
 ## Demo
+Starting screen
 
-_Insert screenshot or GIF of gameplay here_
+![Screenshot 1](screenshots/1.png)
+
+Facts
+
+![Screenshot 2](screenshots/2.png)
+
+Gameplay
+
+![Screenshot 3](screenshots/3.png)
+
+Questions
+
+![Screenshot 4](screenshots/4.png)
+
 
 > Players memorize facts, then play Pong. Missing a ball triggers a quiz. Correct answers save points; wrong answers cost points.
 
