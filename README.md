@@ -58,7 +58,6 @@ Questions
 1. Clone this repository:
 
 https://github.com/coding-squad-pesu/EduPong.git
-cd pong-gk-quiz
 
 # Pong + GK Quiz
 
