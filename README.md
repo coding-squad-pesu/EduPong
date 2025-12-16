@@ -27,7 +27,7 @@ A **fun and interactive educational game** that combines the classic Pong game w
 - **AI Paddle:** Optional AI control for adaptive gameplay.
 - **Timed Quizzes:** Players must answer within 10 seconds.
 - **Pause and Music Control:** Press keys to pause/resume and toggle background music.
-- **Scoreboard & Leaderboard:** Track scores and maintain competitiveness.
+- **Scoreboard:** Track scores and maintain competitiveness.
 
 ---
 
