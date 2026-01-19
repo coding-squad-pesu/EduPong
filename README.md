@@ -24,14 +24,12 @@ A **fun and interactive educational game** that combines the classic Pong game w
 - **Study Mode:** Memorize facts before playing.
 - **Game Mode:** Classic Pong gameplay with 2 players.
 - **Quiz Mode:** Triggered when a player misses the ball; answer multiple-choice questions to save points.
-- **AI Paddle:** Optional AI control for adaptive gameplay.
-- **Timed Quizzes:** Players must answer within 10 seconds.
-- **Pause and Music Control:** Press keys to pause/resume and toggle background music.
 - **Scoreboard:** Track scores and maintain competitiveness.
 
 ---
 
 ## Demo
+
 Starting screen
 
 ![Screenshot 1](screenshots/1.png)
@@ -47,7 +45,6 @@ Gameplay
 Questions
 
 ![Screenshot 4](screenshots/4.png)
-
 
 > Players memorize facts, then play Pong. Missing a ball triggers a quiz. Correct answers save points; wrong answers cost points.
 
